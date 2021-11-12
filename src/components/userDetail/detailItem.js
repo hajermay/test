@@ -1,7 +1,5 @@
 import React from 'react';
 import {View, Text, Image} from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import {Colors, Typography} from '../../styles';
 import styles from './styles';
 
 const DetailItem = ({icon, label}) => {

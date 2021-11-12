@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  View,
-  Image,
-  Text,
-  FlatList,
-  ScrollView,
-} from 'react-native';
+import {View, Image, Text, FlatList, ScrollView} from 'react-native';
 import {useDispatch} from 'react-redux';
 import {AboutMe} from '../../utils/aboutMe';
 import {
@@ -65,6 +59,9 @@ const DetailUser = ({route, navigation}) => {
             />
           )}
         </DetailContainer>
+        {/*** User dose not have description on his data so,
+         I create 2 cases if the use has a description and if not to show the component
+         ***/}
         {!user.description && (
           <DetailContainer
             withHeartIcon
@@ -94,6 +91,12 @@ const DetailUser = ({route, navigation}) => {
             <Text style={styles.descriptionDetail}>{user.description}</Text>
           </DetailContainer>
         )}
+
+        {/*** Same here User dose not have about me on his data,
+         so I create 2 cases if the use has a about me section
+         and if not I created a static list to be used as data
+         ***/}
+
         {user.aboutMe && user.aboutMe.length > 0 && (
           <DetailContainer backgroundColor={Colors.WHITE}>
             <View style={styles.tagsContainer}>

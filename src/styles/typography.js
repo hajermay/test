@@ -18,5 +18,3 @@ export const FONT_SIZE_30 = scaleFont(30);
 export const FONT_SIZE_28 = scaleFont(28);
 export const FONT_SIZE_31 = scaleFont(31);
 export const FONT_SIZE_32 = scaleFont(32);
-
-

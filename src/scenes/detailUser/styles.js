@@ -1,7 +1,7 @@
 import {Dimensions, StyleSheet} from 'react-native';
 import {Colors, Typography} from '../../styles';
-
 const width = Dimensions.get('screen').width;
+
 export default StyleSheet.create({
   userImageContainer: {
     alignSelf: 'stretch',
