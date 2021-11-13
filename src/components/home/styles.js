@@ -32,10 +32,10 @@ export default StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontSize: Typography.FONT_SIZE_16,
+    fontSize: Typography.FONT_SIZE_18,
     color: Colors.BLACK_LIGHT,
-    padding: 10,
     fontWeight: '500',
+    margin: 10,
     fontFamily: Typography.SkolarSansRegular,
   },
   iconContainer: {

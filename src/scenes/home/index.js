@@ -36,4 +36,4 @@ const Home = ({navigation}) => {
     </Container>
   );
 };
-export default Home;
+export {Home};

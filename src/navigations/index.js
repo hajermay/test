@@ -1,9 +1,8 @@
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
 import {SafeAreaView, StatusBar} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import Home from '../scenes/home';
-import DetailUser from '../scenes/detailUser';
+import {Home, DetailUser} from '../scenes';
 import styles from './styles';
 
 const Stack = createStackNavigator();

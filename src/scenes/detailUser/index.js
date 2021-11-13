@@ -27,7 +27,7 @@ const DetailUser = ({route, navigation}) => {
       />
       <ScrollView>
         <View style={styles.userImageContainer}>
-          <Image source={{uri: user.picture}} style={styles.image} />
+          <Image source={{uri: user.avatar}} style={styles.image} />
           <HeartButton
             height={60}
             width={60}
@@ -43,19 +43,19 @@ const DetailUser = ({route, navigation}) => {
             <Text
               style={
                 styles.userName
-              }>{`${user.firstName} ${user.lastName}`}</Text>
+              }>{`${user.first_name} ${user.last_name}`}</Text>
             <RoundIcon />
           </View>
-          {user.id && (
+          {user.email && (
             <DetailItem
               icon={require('../../assets/icons/home.png')}
-              label={user.id}
+              label={user.email}
             />
           )}
-          {user.title && (
+          {user.id && (
             <DetailItem
               icon={require('../../assets/icons/location.png')}
-              label={user.title}
+              label={user.id}
             />
           )}
         </DetailContainer>
@@ -145,4 +145,4 @@ const DetailUser = ({route, navigation}) => {
     </Container>
   );
 };
-export default DetailUser;
+export {DetailUser};
