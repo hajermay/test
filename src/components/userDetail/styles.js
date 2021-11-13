@@ -63,6 +63,7 @@ export default StyleSheet.create({
     fontSize: Typography.FONT_SIZE_16,
     color: Colors.BLACK_LIGHT,
     fontWeight: '400',
+    fontFamily: Typography.SkolarSansRegular,
   },
   iconsContainer: {
     width: 20,

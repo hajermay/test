@@ -26,6 +26,7 @@ export default StyleSheet.create({
   },
   label: {
     fontSize: Typography.FONT_SIZE_24,
+    fontFamily: Typography.SkolarSansRegular,
     color: Colors.BLACK_LIGHT,
   },
 });

@@ -46,6 +46,8 @@ const DetailUser = ({route, navigation}) => {
               }>{`${user.first_name} ${user.last_name}`}</Text>
             <RoundIcon />
           </View>
+          {/**** Because the api  just return some data of the user.
+           I used the email and id as shown data  just to show the component****/}
           {user.email && (
             <DetailItem
               icon={require('../../assets/icons/home.png')}

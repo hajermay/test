@@ -24,11 +24,12 @@ export default StyleSheet.create({
     fontSize: Typography.FONT_SIZE_24,
     color: Colors.BLACK_LIGHT,
     marginVertical: 10,
-    fontFamily: Typography.SkolarSansBold,
+    fontFamily: Typography.SkolarSansRegular,
   },
   description: {
     fontSize: Typography.FONT_SIZE_16,
     color: Colors.BLACK_LIGHT,
+    fontFamily: Typography.SkolarSansRegular,
   },
   userNameContainer: {
     flexDirection: 'row',
@@ -38,6 +39,7 @@ export default StyleSheet.create({
     color: Colors.BLACK_LIGHT,
     fontWeight: '400',
     marginBottom: 5,
+    fontFamily: Typography.SkolarSansRegular,
   },
   descriptionDetail: {
     fontSize: Typography.FONT_SIZE_18,

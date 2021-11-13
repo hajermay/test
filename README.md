@@ -1,18 +1,13 @@
 # Hawaya test
 
-```shell
-        ██████╗  ██████╗   ██████╗       ██╗ ███████╗  ██████╗ ████████╗
-        ██╔══██╗ ██╔══██╗ ██╔═══██╗      ██║ ██╔════╝ ██╔════╝ ╚══██╔══╝
-        ██████╔╝ ██████╔╝ ██║   ██║      ██║ █████╗   ██║         ██║
-        ██╔═══╝  ██╔══██╗ ██║   ██║ ██   ██║ ██╔══╝   ██║         ██║
-        ██║      ██║  ██║ ╚██████╔╝ ╚█████╔╝ ███████╗ ╚██████╗    ██║
-        ╚═╝      ╚═╝  ╚═╝  ╚═════╝   ╚════╝  ╚══════╝  ╚═════╝    ╚═╝
-```
-
 [//]: <> (General description.)
+## Description
+This test is a simple demo using react navigation and redux
+- The first page contain a dummy list of users
+- The second page  contain details of a selected user
+- As an action demonstration after a click on the heart icon the user will be removed from the list
 
 ## Run
-
 - In order to run the App in your local machine,
  1. Run the `npm install` or `yarn` command on the project root folder.
  2. Run `cd ios && pod install`
