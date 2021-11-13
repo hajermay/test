@@ -14,3 +14,5 @@ This test is a simple demo using react navigation and redux
  2. IOS : open project /ios/xcworkspace ==> run from xcode
  3. Android : run the command `react-native run-android` on the project root folder.
 
+## Documentation
+Here you can find the link to the technical documentation: `https://www.notion.so/Hawaya-test-documentation-d885dcc4705d4ee5b936fafdf71862e0`
